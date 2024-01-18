@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto tela</title>
+    <link href="estilos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+
+<div class="card">
+
+    <div class="cargo">
+        <img src="imagem/medal.png" style="width: 10px; height: 10px;">
+        <p>SUPERVISORA</p>
+    </div>
+
+    <!-- Dados Funcionaria -->
+    <div class="dados_func">
+        <img src="imagem/brasil.png" style="width: 30px; position: absolute; padding-top: 100px; padding-left: 120px;">
+        <div>
+            
+            <img style="border-radius: 100px;" src="imagem/woman.jpg" alt="Imagem funcionario(a)">
+            
+        </div>
+        <div>
+            <h2>Ana Maria</h2>
+            <p>Gerente de Recursos Humanos</p>
+            <p>Filial de Campinas-SP</p>
+        </div>
+        <div>
+            <img id="rh" src="imagem/RH.jpg" alt="Imagem funcionario(a)">
+        </div>
+    </div>
+
+
+    <!-- Barra porcentagem -->
+    <main class="container-input">
+        <input id="porcentagem" class="porcentagem" type="range" min="0" max="100" style="width: 80%;" value="10" />
+        <span><span id="valor"></span>% Match 🌟</span> 
+    </main>
+    
+
+
+    <!-- Botão-->
+    <div class="botoes">
+        <button onclick="alerta()" style="margin-right: 10px;"> Intro request</button>
+        <!-- <button onclick="reuniao()">Private Meeting</button> -->
+        <a href="https://meet.google.com/" target="_blank" > <button style="margin-right: 10px;">Private Meeting</button> </a>
+        <button id="chat" onclick="chat()"> 💬 Chat</button>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>

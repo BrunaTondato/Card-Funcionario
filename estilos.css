@@ -1,0 +1,75 @@
+/* estilo chat */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  h2{
+    color: #2a9d8f;
+  }
+.cargo{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5%;
+    width: 20%;
+    background-color: white;
+    /* padding: 10px 20px 10px 20px; */
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+  .card {   
+    display: inline;
+    /* align-items: center; */
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 0.5; /* Ajuste a altura da linha conforme necessário */
+    padding-bottom: 20px;
+  }
+  .dados_func{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+ 
+  .card img {
+    width: 150px; 
+    margin-right: 10px;
+  }
+
+
+
+
+#chat{
+    background-color: #264653;
+    border: none;
+    color: white;
+}
+  .card button {
+    padding: 10px 50px 10px 50px;
+    font-size: 16px;
+    border-width: 2px;
+    border-color: #2a9d8f;
+    border-radius: 20px;
+    cursor: pointer;
+    /* margin-right: 5px;; */
+    
+  }
+  .botoes{
+    
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
